@@ -6,6 +6,7 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
+from medication_scraper.items import MedicationItem
 import json
 import csv
 
