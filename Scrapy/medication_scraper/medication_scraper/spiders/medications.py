@@ -12,13 +12,13 @@ class MedicationsSpider(scrapy.Spider):
 
     def parse(self, response):
         # Extract the URLs of medication pages from the current page
-        medication_urls = response.xpath('.ddc-mgb-2 ul a::attr(href)').extract()
+        medication_urls = response.css('.ddc-mgb-2 ul a::attr(href)').extract()
         
         for url in medication_urls:
             yield response.follow(url, callback=self.parse_page)
     
-    def parse_medication(self, response):
-        medication_urls = response.xpath('#content .ddc-list-unstyled a::attr(href)').extract()
+    def parse_page(self, response):
+        medication_urls = response.css('#content .ddc-list-unstyled a::attr(href)').extract()
         
         for url in medication_urls:
             yield response.follow(url, callback=self.parse_medication)
