@@ -7,6 +7,7 @@ import scrapy
 
 
 class MedicationItem(scrapy.Item):
+    id = scrapy.Field()
     source = scrapy.Field()
     source_url = scrapy.Field()
     name = scrapy.Field()

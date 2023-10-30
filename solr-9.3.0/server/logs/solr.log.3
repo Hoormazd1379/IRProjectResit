@@ -1,0 +1,54 @@
+2023-09-10 19:35:10.145 INFO  (main) [] o.e.j.s.Server jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 14.0.1+7
+2023-09-10 19:35:10.635 WARN  (main) [] o.e.j.u.DeprecationWarning Using @Deprecated Class org.eclipse.jetty.servlet.listener.ELContextCleaner
+2023-09-10 19:35:10.672 INFO  (main) [] o.a.s.s.CoreContainerProvider Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2023-09-10 19:35:10.685 INFO  (main) [] o.a.s.s.CoreContainerProvider  ___      _       Welcome to Apache Solr™ version 9.3.0
+2023-09-10 19:35:10.685 INFO  (main) [] o.a.s.s.CoreContainerProvider / __| ___| |_ _   Starting in standalone mode on port 8983
+2023-09-10 19:35:10.685 INFO  (main) [] o.a.s.s.CoreContainerProvider \__ \/ _ \ | '_|  Install dir: /Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0
+2023-09-10 19:35:10.685 INFO  (main) [] o.a.s.s.CoreContainerProvider |___/\___/_|_|    Start time: 2023-09-10T19:35:10.685608Z
+2023-09-10 19:35:10.689 INFO  (main) [] o.a.s.s.CoreContainerProvider Solr started with "-XX:+CrashOnOutOfMemoryError" that will crash on any OutOfMemoryError exception. The cause of the OOME will be logged in the crash file at the following path: /Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/logs/jvm_crash_74156.log
+2023-09-10 19:35:10.719 INFO  (main) [] o.a.s.s.CoreContainerProvider Solr Home: /Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr (source: system property: solr.solr.home)
+2023-09-10 19:35:10.757 INFO  (main) [] o.a.s.c.SolrXmlConfig Loading solr.xml from /Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr/solr.xml
+2023-09-10 19:35:10.808 INFO  (main) [] o.a.s.c.SolrResourceLoader Added 1 libs to classloader, from paths: [/Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/lib]
+2023-09-10 19:35:12.515 WARN  (main) [] o.a.s.u.StartupLoggingUtils Jetty request logging enabled. Will retain logs for last 3 days. See chapter "Configuring Logging" in reference guide for how to configure.
+2023-09-10 19:35:12.518 WARN  (main) [] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2023-09-10 19:35:12.842 INFO  (main) [] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr
+2023-09-10 19:35:12.843 INFO  (main) [] o.a.s.c.CorePropertiesLocator Cores are: [medications]
+2023-09-10 19:35:12.884 WARN  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.c.SolrConfig You should not use LATEST as luceneMatchVersion property: if you use this setting, and then Solr upgrades to a newer release of Lucene, sizable changes may happen. If precise back compatibility is important then you should instead explicitly specify an actual Lucene version.
+2023-09-10 19:35:12.884 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.c.SolrConfig Using Lucene MatchVersion: 9.7.0
+2023-09-10 19:35:12.987 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.s.IndexSchema Schema name=default-config
+2023-09-10 19:35:13.297 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2023-09-10 19:35:13.297 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.c.CoreContainer Creating SolrCore 'medications' using configuration from instancedir /Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr/configsets/medications, trusted=true
+2023-09-10 19:35:13.370 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.c.SolrCore Opening new SolrCore at [/Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr/configsets/medications], dataDir=[/Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr/configsets/medications/data/]
+2023-09-10 19:35:13.504 INFO  (main) [] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2023-09-10 19:35:13.777 INFO  (main) [] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@127e70c5{solr-jetty-context.xml,/solr,file:///Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr-webapp/webapp/,AVAILABLE}{/Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr-webapp/webapp}
+2023-09-10 19:35:13.792 INFO  (main) [] o.e.j.s.RequestLogWriter Opened /Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/logs/2023_09_10.request.log
+2023-09-10 19:35:13.797 INFO  (main) [] o.e.j.s.AbstractConnector Started ServerConnector@749c877b{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:8983}
+2023-09-10 19:35:13.801 INFO  (main) [] o.e.j.s.Server Started Server@376a312c{STARTING}[10.0.15,sto=0] @5450ms
+2023-09-10 19:35:14.439 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2023-09-10 19:35:14.492 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2023-09-10 19:35:14.492 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2023-09-10 19:35:14.523 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2023-09-10 19:35:14.523 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2023-09-10 19:35:14.771 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr/configsets/medications/conf
+2023-09-10 19:35:14.794 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.s.DirectSolrSpellChecker init: {accuracy=0.5, maxQueryFrequency=0.01, maxEdits=2, minPrefix=1, maxInspections=5, minQueryLength=4, name=default, field=_text_, classname=solr.DirectSolrSpellChecker, distanceMeasure=internal}
+2023-09-10 19:35:14.805 INFO  (coreLoadExecutor-10-thread-1) [ x:medications] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2023-09-10 19:35:14.838 INFO  (searcherExecutor-12-thread-1-processing-medications) [ x:medications] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2023-09-10 19:35:14.838 INFO  (searcherExecutor-12-thread-1-processing-medications) [ x:medications] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2023-09-10 19:35:14.847 INFO  (searcherExecutor-12-thread-1-processing-medications) [ x:medications] o.a.s.c.SolrCore Registered new searcher autowarm time: 0 ms
+2023-09-10 19:37:16.212 INFO  (qtp1241480588-25) [ x:medications] o.a.s.c.S.Request webapp=/solr path=/select params={q=name:a*&fl=name,description&start=0&rows=10} hits=58 status=0 QTime=105
+2023-09-10 19:37:23.165 INFO  (qtp1241480588-19) [ x:medications] o.a.s.c.S.Request webapp=/solr path=/select params={q=name:a*&fl=name,description&start=0&rows=10} hits=58 status=0 QTime=2
+2023-09-10 19:38:53.554 INFO  (qtp1241480588-18) [ x:medications] o.a.s.c.S.Request webapp=/solr path=/select params={q=name:a*&fl=name,description&start=0&rows=10} hits=58 status=0 QTime=1
+2023-09-10 19:41:28.069 INFO  (qtp1241480588-21) [ x:medications] o.a.s.c.S.Request webapp=/solr path=/select params={q=name:a*&fl=name,description&start=0&rows=10} hits=58 status=0 QTime=1
+2023-09-10 19:41:34.889 INFO  (qtp1241480588-25) [ x:medications] o.a.s.c.S.Request webapp=/solr path=/select params={q=name:a*&fl=name,description&start=0&rows=10} hits=58 status=0 QTime=1
+2023-09-10 19:41:36.327 INFO  (qtp1241480588-19) [ x:medications] o.a.s.c.S.Request webapp=/solr path=/select params={q=name:a*&fl=name,description&start=0&rows=10} hits=58 status=0 QTime=1
+2023-09-10 19:43:53.097 INFO  (qtp1241480588-22) [ x:medications] o.a.s.c.S.Request webapp=/solr path=/select params={q=name:a*&fl=name,description&start=0&rows=10} hits=58 status=0 QTime=1
+2023-09-10 19:44:50.041 INFO  (ShutdownMonitor) [] o.e.j.s.Server Stopped Server@376a312c{STOPPING}[10.0.15,sto=0]
+2023-09-10 19:44:50.046 INFO  (ShutdownMonitor) [] o.e.j.s.AbstractConnector Stopped ServerConnector@749c877b{HTTP/1.1, (http/1.1, h2c)}{127.0.0.1:8983}
+2023-09-10 19:44:50.061 INFO  (ShutdownMonitor) [] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1574503358
+2023-09-10 19:44:50.063 INFO  (coreCloseExecutor-18-thread-1) [ x:medications] o.a.s.c.SolrCore CLOSING SolrCore org.apache.solr.core.SolrCore@e050f9c medications
+2023-09-10 19:44:50.063 INFO  (coreCloseExecutor-18-thread-1) [ x:medications] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.medications tag=SolrCore@e050f9c
+2023-09-10 19:44:50.105 INFO  (coreCloseExecutor-18-thread-1) [ x:medications] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2023-09-10 19:44:50.124 INFO  (ShutdownMonitor) [] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2023-09-10 19:44:50.139 INFO  (ShutdownMonitor) [] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2023-09-10 19:44:50.147 INFO  (ShutdownMonitor) [] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2023-09-10 19:44:50.159 INFO  (ShutdownMonitor) [] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@127e70c5{solr-jetty-context.xml,/solr,file:///Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr-webapp/webapp/,STOPPED}{/Users/hpirayeshfar/Documents/GitK/IRProjectResit/solr-9.3.0/server/solr-webapp/webapp}
